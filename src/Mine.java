@@ -1,9 +1,9 @@
 import javafx.scene.control.Button;
 
 public class Mine {
-	Boolean amIAMine;        //Whether it is a mine or not
-	int totalMinesAround;    //How many mines in the surrounding 8 spaces
-	Button button;			 //The button this mine is.
+	private Boolean amIAMine;        //Whether it is a mine or not
+	private int totalMinesAround;    //How many mines in the surrounding 8 spaces
+	private Button button;			 //The button this mine is.
 	
 	public Mine(Button button){
 		this.button = button;
